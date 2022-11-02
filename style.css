@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  background-color: lightgrey;
+}
+#drum-machine {
+  margin: auto;
+  width: 500px;
+  background-color: white;
+  display: inline;
+}
+.yeah {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1px;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+  border: black solid 1px;
+  border-radius: 20px;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  border-radius: 12px;
+  box-shadow: 7px 6px 10px 1px;
+}
+
+.clicked {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 6px 1px;
+}
+
+#display {
+  background-color: white;
+  border-radius: 15px 15px;
+  margin: 10px auto;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  border: black 2px solid;
+}
+
+a {
+  display: block;
+}
+
+.shakey {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  10% {
+    transform: scale(1.1);
+  }
+}
